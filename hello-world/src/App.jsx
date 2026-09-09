@@ -11,6 +11,9 @@ import { ProductList } from './ProductList';
 import { NameList } from './NameList';
 import { Alert } from './Alert';
 import { CustomButton } from './CustomButton';
+import { Contact } from './Contact';
+import { NewsLetter } from './NewsLetter';
+import { Menu } from './Menu';
 
 function App() {
 
@@ -33,6 +36,9 @@ function App() {
       <NameList/>
       <Alert> Your changes have been saved</Alert>
       <CustomButton/>
+      <Contact/>
+      <NewsLetter/>
+      <Menu />
     </>
     // <></> and <React.Fragment><React.Fragment/> are same
 
