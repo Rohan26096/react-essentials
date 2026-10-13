@@ -3,8 +3,9 @@ import { BatchingCounter } from './BatchingCounter'
 import { Counter } from './Counter'
 import { LoginCard } from './LoginCard'
 import { PrevStateCounter } from './PrevStateCounter'
+import { ShoppingCart } from './ShoppingCart'
 import { SimpleCounter } from './SimpleCounter'
-import { TodoList } from './ToDoList'
+import { ToDoList } from './TodoList'
 import { UserDashboard } from './UserDashboard'
 import { UserProfile } from './UserProfile'
 
@@ -20,7 +21,8 @@ function App() {
       {/* <PrevStateCounter/> */}
       {/* <BatchingCounter/> */}
       {/* <UserProfile/> */}
-      <TodoList/>
+      {/* <ToDoList/> */}
+      <ShoppingCart/>
     </div>
   )
 }
